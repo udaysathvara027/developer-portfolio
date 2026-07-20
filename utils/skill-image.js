@@ -118,7 +118,7 @@ export const skillsImage = (skill) => {
       return react;
     case 'remix':
       return remix;
-    case 'Shopify Polaris':
+    case 'shopify polaris':
       return shopify;
     case 'Shopify App Bridge':
       return shopify;
@@ -144,7 +144,7 @@ export const skillsImage = (skill) => {
       return mysql;
     case 'postgresql':
       return postgresql;
-    case 'tailwind':
+    case 'tailwind css':
       return tailwind;
     case 'vitejs':
       return vitejs;

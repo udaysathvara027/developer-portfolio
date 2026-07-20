@@ -12,13 +12,13 @@ export const personalData = {
   phone: '+91 8238481652',
   address: 'Ahmedabad, Gujarat, India',
   linkedIn: 'https://www.linkedin.com/in/uday-sathvara-310957285',
-  facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
+  //facebook: 'https://www.facebook.com/abusaid.riyaz/',
+  //twitter: 'https://twitter.com/said7388',
+  // stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
   github: 'https://github.com/udaysathvara',
   whatsapp: 'https://wa.me/qr/E7ZXE7ICZE3WN1',
   instagram: 'https://www.instagram.com/uday_2_7?igsh=MWVraHk0ZmEzbzk2eA==',
-  leetcode: "https://leetcode.com/udaysathvara/",
+  // leetcode: "https://leetcode.com/udaysathvara/",
   devUsername: "udaysathvara",
   resume: "https://drive.google.com/file/d/1MvqwjInJptzJSA3GxdRFfclbdcsUsOly"
 }

@@ -1,16 +1,13 @@
 export const skillsData = [
+  'React',
+  'Next js',
+  'Remix',
+  'JavaScript',
+  'Shopify Polaris',
+  'Tailwind CSS',
   'HTML',
   'CSS',
-  'Javascript',
-  'React',
-  'Next JS',
-  'Remix',
-  'Tailwind',
-  'Git',
   'Bootstrap',
-  'Shopify Polaris',
-  'Shopify App Bridge',
-  'REST APIs'
 ]
 
 // Choose your skills from below. Make sure it's in the same format and spelled correctly.
