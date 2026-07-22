@@ -7,12 +7,36 @@ import ScrollToTop from "./components/helper/scroll-to-top";
 import Navbar from "./components/navbar";
 import "./css/card.scss";
 import "./css/globals.scss";
+import { personalData } from "@/utils/data/personal-data";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Portfolio of UDAY - Software Developer",
-  description:
-    "This is the portfolio of UDAY. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_APP_URL || "https://uday-sathvara.vercel.app/"),
+  title: `Portfolio of ${personalData.name} - ${personalData.designation}`,
+  description: personalData.description,
+  openGraph: {
+    title: `Portfolio of ${personalData.name} - ${personalData.designation}`,
+    description: personalData.description,
+    url: process.env.NEXT_PUBLIC_APP_URL || "https://uday-sathvara.vercel.app/",
+    siteName: `Portfolio of ${personalData.name}`,
+    images: [
+      {
+        url: "/profile.png",
+        width: 1200,
+        height: 630,
+        alt: `${personalData.name} - ${personalData.designation}`,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `Portfolio of ${personalData.name} - ${personalData.designation}`,
+    description: personalData.description,
+    images: ["/profile.png"],
+  },
 };
 
 export default function RootLayout({ children }) {
