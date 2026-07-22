@@ -25,7 +25,7 @@ function ContactSection() {
         <div className="lg:w-3/4 ">
           <div className="flex flex-col gap-5 lg:gap-9">
             <Link href={`mailto:${personalData.email}`} className="text-sm md:text-xl flex items-center gap-3 hover:text-[#16f2b3] transition-all duration-300">
-              <MdAlternateEmail
+              <SiGmail
                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={36}
               />
@@ -62,19 +62,26 @@ function ContactSection() {
               />
             </Link>
 
-            <Link target="_blank" href={`mailto:${personalData.email}`}>
-              <SiGmail
+            <Link target="_blank" href={personalData.whatsapp}>
+              <BsWhatsapp
                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={48}
               />
             </Link>
 
-            <Link target="_blank" href={`tel:${personalData.phone}`}>
+            {/* <Link target="_blank" href={`mailto:${personalData.email}`}>
+              <SiGmail
+                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={48}
+              />
+            </Link> */}
+
+            {/* <Link target="_blank" href={`tel:${personalData.phone}`}>
               <IoMdCall
                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                 size={48}
               />
-            </Link>
+            </Link> */}
 
             <Link target="_blank" href={personalData.github}>
               <IoLogoGithub
@@ -83,12 +90,6 @@ function ContactSection() {
               />
             </Link>
 
-            <Link target="_blank" href={personalData.whatsapp}>
-              <BsWhatsapp
-                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={48}
-              />
-            </Link>
             <Link target="_blank" href={personalData.instagram}>
               <BsInstagram
                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
