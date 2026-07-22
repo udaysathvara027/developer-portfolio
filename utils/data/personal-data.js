@@ -20,5 +20,5 @@ export const personalData = {
   instagram: 'https://www.instagram.com/uday_2_7?igsh=MWVraHk0ZmEzbzk2eA==',
   // leetcode: "https://leetcode.com/udaysathvara/",
   devUsername: "udaysathvara",
-  resume: "https://drive.google.com/file/d/1MvqwjInJptzJSA3GxdRFfclbdcsUsOly"
+  resume: "https://drive.google.com/file/d/1m7VNhPxAaVopfP3YNXx3lL1JSAfQgzMs/view?usp=drive_link"
 }
