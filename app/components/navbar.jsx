@@ -20,7 +20,7 @@ export default function Navbar() {
     <>
       {/* Navbar */}
       <nav className="fixed top-0 left-0 w-full z-300 border-b border-[#353a52] bg-[#0d1224]/70 backdrop-blur-md">
-        <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
+        <div className="mx-auto flex h-20 w-full max-w-full items-center justify-between px-6 sm:px-12 lg:max-w-[70rem] xl:max-w-[76rem] 2xl:max-w-[92rem]">
           <Link href="/" className="text-3xl font-bold text-[#16f2b3]">
             UDAY
           </Link>
