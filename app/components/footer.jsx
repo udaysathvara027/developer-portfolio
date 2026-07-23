@@ -11,11 +11,11 @@ function Footer() {
         <div className="flex justify-center -z-40">
           <div className="absolute top-0 h-[1px] w-1/2  bg-gradient-to-r from-transparent via-violet-500 to-transparent"></div>
         </div>
-        <div className="flex flex-col md:flex-row items-center justify-between">
+        <div className="text-center flex flex-col gap-3 lg:gap-5 items-center justify-center">
           <p className="text-sm">
             © Developer Portfolio by <Link target="_blank" href={personalData.linkedIn} className="text-[#16f2b3]">UDAY</Link>
           </p>
-          <div className="flex items-center gap-5">
+          {/* <div className="flex items-center gap-5">
             <Link
               target="_blank"
               href="https://github.com/udaysathvara/developer-portfolio"
@@ -32,7 +32,7 @@ function Footer() {
               <CgGitFork />
               <span>Fork</span>
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </div >
